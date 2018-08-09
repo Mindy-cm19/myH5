@@ -5,11 +5,25 @@
     <title>Title</title>
     <!--外链CSS -->
     <link rel="Stylesheet" type="text/css" href="css/page.css" />
+    <script>
+        function audioAutoplay(id) {
+            var audio = document.getElementById(id);
+            audio.play();
+            document.addEventListener("WeixinJSBridgeReady",function () {
+                audio.play();
+            },false);
+        }
+    </script>
 </head>
-<body>
+<body onload="audioAutoplay('bgm');">
+<audio id="bgm" src="wav/bgm.wav" preload="auto" autoplay="autoplay" loop="loop"></audio>
+
 <page id="c">春</page>
 <page id="x">夏</page>
 <page id="q">秋</page>
-<page id="d">冬</page>
+<page id="d">
+    冬
+    <span id="z">贞下起元</span>
+</page>
 </body>
 </html>

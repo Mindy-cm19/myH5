@@ -11,21 +11,37 @@ page{
     padding-top: 30%;
 }
 #c{
-    background-color: lightgreen;
-    animation: c 10s infinite;
+    background-image: url("../images/dt02.jpeg");
+    background-size: 100% 100%;
+    animation: c 13s infinite;
 }
 #x{
-    background-color: red;
-    animation: x 10s infinite;
+    background-image: url("../images/dt01.jpeg");
+    background-size: 100% 100%;
+    animation: x 13s infinite;
 }
 #q{
-    animation: q 10s infinite;
+    background-image: url("../images/dt03.jpeg");
+    background-size: 100% 100%;
+    animation: q 13s infinite;
 
 }
 #d{
-    background-color: black;
-    color: white;
-    animation: d 10s infinite;
+    background-image: url("../images/dt04.jpeg");
+    background-size: 100% 100%;
+    animation: d 13s infinite;
+}
+#z{
+    font-size: 36px;
+    display: block;
+    animation: z 13s infinite;
+}
+@keyframes z {
+    0% {opacity: 0}
+    70% {opacity: 0}
+    85% {opacity: 100}
+    90% {opacity: 0}
+    100% {opacity: 0}
 }
 @keyframes c {
     0% {opacity: 0}
