@@ -5,10 +5,10 @@ html,body,page{
 }
 page{
     height: 100%;
-    font-size: 110px;
+    font-size: 160px;
     position: absolute;
     text-align: center;
-    padding-top: 30%;
+    padding-top: 40%;
 }
 #c{
     background-image: url("../images/dt02.jpeg");
